@@ -80,8 +80,7 @@ int majorityElement(vector<int> v) {
         else if (el == v[i]) cnt++;
         else cnt--;
     }
-    //checking if the stored element
-    // is the majority element:
+    //checking if the stored element is the majority element:
     int cnt1 = 0;
     for (int i = 0; i < n; i++) {
         if (v[i] == el) cnt1++;
